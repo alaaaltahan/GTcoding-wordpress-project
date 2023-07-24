@@ -1,0 +1,118 @@
+[22-Jul-2023 11:54:21 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[22-Jul-2023 12:44:00 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[22-Jul-2023 12:48:29 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[23-Jul-2023 05:33:46 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "all" in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-content\themes\gtcoding\functions.php:7
+Stack trace:
+#0 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php(308): gt_setup('')
+#1 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\script-loader.php(2194): do_action('wp_enqueue_scri...')
+#4 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\general-template.php(3049): do_action('wp_head')
+#8 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-content\themes\gtcoding\header.php(8): wp_head()
+#9 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\template.php(783): require_once('C:\\Users\\alaaa\\...')
+#10 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\template.php(718): load_template('C:\\Users\\alaaa\\...', true, Array)
+#11 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-content\themes\gtcoding\index.php(4): get_header()
+#13 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\alaaa\\...')
+#14 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-blog-header.php(19): require_once('C:\\Users\\alaaa\\...')
+#15 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\index.php(17): require('C:\\Users\\alaaa\\...')
+#16 {main}
+  thrown in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-content\themes\gtcoding\functions.php on line 7
+[23-Jul-2023 05:34:11 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ALL" in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-content\themes\gtcoding\functions.php:7
+Stack trace:
+#0 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php(308): gt_setup('')
+#1 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\script-loader.php(2194): do_action('wp_enqueue_scri...')
+#4 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\general-template.php(3049): do_action('wp_head')
+#8 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-content\themes\gtcoding\header.php(8): wp_head()
+#9 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\template.php(783): require_once('C:\\Users\\alaaa\\...')
+#10 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\template.php(718): load_template('C:\\Users\\alaaa\\...', true, Array)
+#11 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-content\themes\gtcoding\index.php(4): get_header()
+#13 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\alaaa\\...')
+#14 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-blog-header.php(19): require_once('C:\\Users\\alaaa\\...')
+#15 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\index.php(17): require('C:\\Users\\alaaa\\...')
+#16 {main}
+  thrown in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-content\themes\gtcoding\functions.php on line 7
+[23-Jul-2023 05:39:29 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "gr_init" not found or invalid function name in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-settings.php(601): do_action('after_setup_the...')
+#3 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-config.php(103): require_once('C:\\Users\\alaaa\\...')
+#4 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-load.php(50): require_once('C:\\Users\\alaaa\\...')
+#5 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\alaaa\\...')
+#6 {main}
+  thrown in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php on line 308
+[23-Jul-2023 05:39:33 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "gr_init" not found or invalid function name in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-settings.php(601): do_action('after_setup_the...')
+#3 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-config.php(103): require_once('C:\\Users\\alaaa\\...')
+#4 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-load.php(50): require_once('C:\\Users\\alaaa\\...')
+#5 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\alaaa\\...')
+#6 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\alaaa\\...')
+#7 {main}
+  thrown in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php on line 308
+[23-Jul-2023 05:39:33 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "gr_init" not found or invalid function name in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-settings.php(601): do_action('after_setup_the...')
+#3 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-config.php(103): require_once('C:\\Users\\alaaa\\...')
+#4 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-load.php(50): require_once('C:\\Users\\alaaa\\...')
+#5 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\alaaa\\...')
+#6 {main}
+  thrown in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php on line 308
+[23-Jul-2023 06:00:29 UTC] PHP Warning:  Array to string conversion in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\formatting.php on line 1098
+[23-Jul-2023 06:00:29 UTC] PHP Fatal error:  Uncaught TypeError: preg_match_all(): Argument #2 ($subject) must be of type string, array given in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\formatting.php:233
+Stack trace:
+#0 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\formatting.php(233): preg_match_all('@\\[/?([^<>&/\\[\\...', Array, NULL)
+#1 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-admin\menu-header.php(253): wptexturize(Array)
+#2 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-admin\menu-header.php(296): _wp_menu_output(Array, Array)
+#3 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-admin\admin-header.php(258): require('C:\\Users\\alaaa\\...')
+#4 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-admin\options-general.php(64): require_once('C:\\Users\\alaaa\\...')
+#5 {main}
+  thrown in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\formatting.php on line 233
+[24-Jul-2023 13:25:10 UTC] PHP Warning:  Undefined array key 0 in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\plugin.php on line 1011
+[24-Jul-2023 13:25:10 UTC] PHP Warning:  Undefined array key 0 in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\plugin.php on line 1014
+[24-Jul-2023 13:25:10 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, no array or string given in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\widgets.php(1854): do_action('widgets_init')
+#3 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php(308): wp_widgets_init('')
+#4 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-settings.php(623): do_action('init')
+#7 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-config.php(103): require_once('C:\\Users\\alaaa\\...')
+#8 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-load.php(50): require_once('C:\\Users\\alaaa\\...')
+#9 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\alaaa\\...')
+#10 {main}
+  thrown in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php on line 308
+[24-Jul-2023 13:25:13 UTC] PHP Warning:  Undefined array key 0 in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\plugin.php on line 1011
+[24-Jul-2023 13:25:13 UTC] PHP Warning:  Undefined array key 0 in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\plugin.php on line 1014
+[24-Jul-2023 13:25:13 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, no array or string given in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\widgets.php(1854): do_action('widgets_init')
+#3 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php(308): wp_widgets_init('')
+#4 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-settings.php(623): do_action('init')
+#7 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-config.php(103): require_once('C:\\Users\\alaaa\\...')
+#8 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-load.php(50): require_once('C:\\Users\\alaaa\\...')
+#9 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\alaaa\\...')
+#10 C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-admin\options-reading.php(10): require_once('C:\\Users\\alaaa\\...')
+#11 {main}
+  thrown in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-includes\class-wp-hook.php on line 308
+[24-Jul-2023 17:50:39 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\alaaa\Local Sites\gtcoding-wordpress\app\public\wp-content\themes\gtcoding\search.php on line 57
